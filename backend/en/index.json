@@ -1,0 +1,24 @@
+{
+  "path": "page.html",
+  "containers": [
+    {
+      "name": "main",
+      "elements": [
+        {
+          "type": "Layout",
+          "ref": "57581c4d2a0e46211ef22a1d",
+          "containers": [
+            {
+              "name": "-0",
+              "elements": []
+            },
+            {
+              "name": "57581c852a0e46211ef22a1f-0",
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
