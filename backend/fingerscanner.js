@@ -27,7 +27,7 @@ module.exports = (cms) => {
 
     const Employee = cms.registerSchema({
         name: String,
-        id: String,
+        Id: String,
         company: {type: mongoose.Schema.Types.ObjectId, ref: 'Company', autopopulate: true},
         fingerTemplate: [{
             template: String,
