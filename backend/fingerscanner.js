@@ -1,7 +1,7 @@
 'use strict';
 const path = require('path');
 const JsonFn = require("json-fn");
-const Q = require('Q');
+const Q = require('q');
 const moment = require('moment');
 module.exports = (cms) => {
 
@@ -27,6 +27,7 @@ module.exports = (cms) => {
 
     const Employee = cms.registerSchema({
         name: String,
+        id: String,
         company: {type: mongoose.Schema.Types.ObjectId, ref: 'Company', autopopulate: true},
         fingerTemplate: [{
             template: String,
